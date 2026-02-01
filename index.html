@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu Gurdekar | Computer Science Student & Web Developer</title>
+    <meta name="description" content="Priyanshu Gurdekar - 1st Year Computer Science Student at MITS Gwalior, passionate about web development and creating innovative digital solutions.">
+    <meta name="keywords" content="Priyanshu Gurdekar, Computer Science, Web Developer, Student, MITS Gwalior, HTML, CSS, JavaScript">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+</head>
+<body>
+
+<!-- ===== LOADING SCREEN ===== -->
+<div id="loading-screen" class="loading-screen">
+    <div class="loader">
+        <div class="loader-text">PG</div>
+        <div class="loader-subtitle">Loading Portfolio...</div>
+    </div>
+</div>
+
+<!-- ===== NAVIGATION ===== -->
+<nav id="navbar" class="navbar">
+    <div class="nav-container">
+        <div class="nav-brand">
+            <div class="logo">Priyanshu<span>.dev</span></div>
+        </div>
+        
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <div class="nav-controls">
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-sun"></i>
+            </button>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- ===== HERO SECTION ===== -->
+<section id="home" class="hero section">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">
+                    <span class="wave-emoji">👋</span>
+                    <span class="greeting-text">Hello, I'm</span>
+                </div>
+                
+                <h1 class="hero-name">
+                    <span class="name-text">Priyanshu Gurdekar</span>
+                </h1>
+                
+                <div class="hero-title">
+                    <h2>I'm a <span class="typing-text" id="typing-text"></span></h2>
+                </div>
+                
+                <p class="hero-description">
+                    1st Year Computer Science student at MITS Gwalior, passionate about web development 
+                    and creating innovative digital solutions. Currently learning modern web technologies 
+                    and building exciting projects.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        <span>View My Work</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+                
+                <div class="hero-social">
+                    <a href="mailto:priyanshugurdekar223@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+918815869014" class="social-link" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <img src="profile.jpeg" alt="Priyanshu Gurdekar" class="profile-img" loading="lazy">
+                    <div class="floating-elements">
+                        <div class="floating-item" data-delay="0s">💻</div>
+                        <div class="floating-item" data-delay="1s">🚀</div>
+                        <div class="floating-item" data-delay="2s">⚡</div>
+                        <div class="floating-item" data-delay="3s">🎯</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <span class="scroll-text">Scroll Down</span>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section id="about" class="about section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Get to know me better - my journey, passion, and aspirations</p>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <div class="about-intro">
+                    <h3>My Journey</h3>
+                    <p>
+                        I'm Priyanshu Gurdekar, a passionate 1st year Computer Science and Technology student 
+                        at Madhav Institute Of Technology And Science, Gwalior, MP. Originally from the beautiful 
+                        city of Balaghat, MP, I have developed a deep fascination for technology and its potential 
+                        to solve real-world problems.
+                    </p>
+                    <p>
+                        My journey in programming began with curiosity about how websites work, which quickly 
+                        evolved into a commitment to mastering web development. I believe in continuous learning, 
+                        clean code practices, and creating user-friendly digital experiences that make a difference.
+                    </p>
+                </div>
+                
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>Education Focus</h4>
+                            <p>Computer Science & Technology</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Balaghat, Madhya Pradesh</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-heart"></i>
+                        <div>
+                            <h4>Passion</h4>
+                            <p>Web Development & Innovation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-stats">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">Projects Built</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="4">0</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="1">0</div>
+                        <div class="stat-label">Year of Study</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Cups of Coffee</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== EDUCATION SECTION ===== -->
+<section id="education" class="education section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Education & Journey</h2>
+            <p class="section-subtitle">My academic path and learning milestones</p>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2025 - 2029</div>
+                    <h3>Bachelor of Technology</h3>
+                    <h4>Computer Science & Technology</h4>
+                    <p class="institution">Madhav Institute Of Technology And Science, Gwalior, MP</p>
+                    <p class="description">
+                        Currently pursuing B.Tech in Computer Science and Technology. Focusing on programming 
+                        fundamentals, data structures, algorithms, and web development technologies. 
+                        Maintaining strong academic performance while working on practical projects.
+                    </p>
+                    <div class="timeline-skills">
+                        <span class="skill-tag">Programming Fundamentals</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Web Development</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2025</div>
+                    <h3>Web Development Journey</h3>
+                    <h4>Self-Learning & Project Development</h4>
+                    <p class="institution">Independent Learning</p>
+                    <p class="description">
+                        Started my web development journey with HTML, CSS, and JavaScript. Built multiple 
+                        projects to strengthen programming skills and understanding of modern web technologies. 
+                        Focused on creating responsive, user-friendly applications.
+                    </p>
+                    <div class="timeline-skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2025</div>
+                    <h3>Higher Secondary Education</h3>
+                    <h4>Science Stream</h4>
+                    <p class="institution">Balaghat, Madhya Pradesh</p>
+                    <p class="description">
+                        Completed higher secondary education with focus on Science stream. Developed strong 
+                        foundation in mathematics, physics, and logical thinking that supports programming 
+                        and problem-solving skills.
+                    </p>
+                    <div class="timeline-skills">
+                        <span class="skill-tag">Mathematics</span>
+                        <span class="skill-tag">Physics</span>
+                        <span class="skill-tag">Logical Thinking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SKILLS SECTION ===== -->
+<section id="skills" class="skills section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+        </div>
+        
+        <div class="skills-content">
+            <div class="skills-category">
+                <div class="category-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Programming Languages</h3>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <span class="skill-level">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <span class="skill-level">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <i class="fas fa-code"></i>
+                                <span>C++</span>
+                            </div>
+                            <span class="skill-level">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <div class="category-header">
+                    <i class="fas fa-tools"></i>
+                    <h3>Development Tools</h3>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git & GitHub</span>
+                            </div>
+                            <span class="skill-level">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <i class="fas fa-code"></i>
+                                <span>VS Code</span>
+                            </div>
+                            <span class="skill-level">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Responsive Design</span>
+                            </div>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <div class="category-header">
+                    <i class="fas fa-brain"></i>
+                    <h3>Core Concepts</h3>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <i class="fas fa-sitemap"></i>
+                                <span>Data Structures</span>
+                            </div>
+                            <span class="skill-level">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="65"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <i class="fas fa-puzzle-piece"></i>
+                                <span>Problem Solving</span>
+                            </div>
+                            <span class="skill-level">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-name">
+                                <i class="fas fa-project-diagram"></i>
+                                <span>Algorithm Design</span>
+                            </div>
+                            <span class="skill-level">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PROJECTS SECTION ===== -->
+<section id="projects" class="projects section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A showcase of my recent work and learning projects</p>
+        </div>
+        
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="web">Web Apps</button>
+            <button class="filter-btn" data-filter="game">Games</button>
+            <button class="filter-btn" data-filter="dashboard">Dashboards</button>
+        </div>
+        
+        <div class="projects-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-actions">
+                            <a href="#" class="project-btn" aria-label="View Live">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-btn" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-category">Web Application</div>
+                    <h3 class="project-title">Internship Recommendation System</h3>
+                    <p class="project-description">
+                        An intelligent platform that recommends internships based on user skills, location preferences, 
+                        and career interests. Features advanced filtering and matching algorithms.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Algorithm</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="game">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-actions">
+                            <a href="#" class="project-btn" aria-label="View Live">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-btn" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-category">Interactive Game</div>
+                    <h3 class="project-title">Number Guessing Game</h3>
+                    <p class="project-description">
+                        An engaging JavaScript-based guessing game with multiple difficulty levels, score tracking, 
+                        and responsive design. Features smooth animations and user-friendly interface.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">Game Logic</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="dashboard">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-actions">
+                            <a href="#" class="project-btn" aria-label="View Live">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-btn" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-category">Data Visualization</div>
+                    <h3 class="project-title">Analytics Dashboard</h3>
+                    <p class="project-description">
+                        Interactive analytics dashboard with real-time data visualization, charts, and filtering 
+                        capabilities. Built to display and analyze data in an intuitive, user-friendly interface.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Charts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact" class="contact section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's connect and discuss opportunities, projects, or collaborations</p>
+        </div>
+        
+        <div class="contact-content">
+            <!-- Contact Information Cards -->
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email Address</h3>
+                        <p>priyanshugurdekar223@gmail.com</p>
+                        <a href="mailto:priyanshugurdekar223@gmail.com" class="contact-action">
+                            Send Email <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Phone Number</h3>
+                        <p>+91 8815869014</p>
+                        <a href="tel:+918815869014" class="contact-action">
+                            Call Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Balaghat, Madhya Pradesh, India</p>
+                        <span class="contact-action">
+                            Available for Remote Work <i class="fas fa-globe"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <div class="form-header">
+                    <h3>Send Me a Message</h3>
+                    <p>I'll respond within 24 hours</p>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group-row">
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Choose a subject</option>
+                                <option value="collaboration">Collaboration Opportunity</option>
+                                <option value="internship">Internship Inquiry</option>
+                                <option value="project">Project Discussion</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, opportunity, or inquiry..." required></textarea>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <p class="privacy-note">
+                            <i class="fas fa-shield-alt"></i>
+                            Your information is secure and will never be shared
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Call to Action -->
+        <div class="contact-cta">
+            <div class="cta-content">
+                <h3>Ready to Start Something Great?</h3>
+                <p>I'm always excited about new opportunities and interesting projects</p>
+                <div class="cta-actions">
+                    <a href="mailto:priyanshugurdekar223@gmail.com" class="cta-btn primary">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email Me</span>
+                    </a>
+                    <a href="#projects" class="cta-btn secondary">
+                        <i class="fas fa-code"></i>
+                        <span>View My Work</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3 class="footer-logo">Priyanshu<span>.dev</span></h3>
+                <p class="footer-description">
+                    Computer Science student passionate about creating innovative web solutions 
+                    and building meaningful digital experiences.
+                </p>
+                <div class="footer-social">
+                    <a href="mailto:priyanshugurdekar223@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+918815869014" class="social-link" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> priyanshugurdekar223@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +91 8815869014</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Balaghat, MP, India</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Priyanshu Gurdekar. All rights reserved. | Made with ❤️ in India</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+</body>
+</html>
